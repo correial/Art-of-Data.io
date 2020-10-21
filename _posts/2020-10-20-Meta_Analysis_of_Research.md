@@ -1,7 +1,7 @@
 --- 
 #indicate Frontmatter
 layout: post
-title: Meta Analysis of Research":" Goal Line Technology
+title: Meta Analysis of Research
 ---
 
 
