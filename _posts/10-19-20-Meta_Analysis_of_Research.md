@@ -22,7 +22,7 @@ title: Meta Analysis of Research":" Goal Line Technology
 * While we are only dealing with mm in this experiment, there is still some amount of variation in results. Given that this test was very basic, I do not believe that the results should vary as much as they did. Especially since in a real match, calling a goal invalid when it is 3mm past the goal line could be the deciding factor in a match.
 
 # How might "publish or perish" have affected this study?
-* I do not believe that there was any P-hacking that took place, nor was there an incentive to lie about the data collected throughout the experieriment. The technology will need to be tested by numerous different people and programs before it can be distributed to professional leagues for use. Thus, there would be no use in altering results as this product will not be "published", but imporved on until is passes all stages for use.
+* I do not believe that there was any P-hacking that took place, nor was there an incentive to lie about the data collected throughout the experieriment. The technology will need to be tested by numerous different people and programs before it can be distributed to professional leagues for use. Thus, there would be no use in altering results as this product will not be "published", but imporved on until it passes all stages for use.
 * Additionally, there would be no incentive to limit the sources of research, or keep parts of the experiement hard to access as companies will have to replicate the expieriments themselves to insure that the product works.
 
 #### Written, Edited, Created, Thought Of, and Programmed by: 
