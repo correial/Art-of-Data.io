@@ -34,7 +34,7 @@ During this lab, I collaborated a large about with Ben May and Ethan Waggoner! E
 
 <br>
 
- # What methods I tried
+# What methods I tried
  During this assingment, I tried numerous methods to sort through my csv file. Some worked, and even more didn't work at first. But through collaborating with classmates we finally figured it out! **Here are a few...**
  *  One thing to note about my program is that I essentially used two methods to find the county with the most beds just to ensure that I was recieving the correct answer! 
 * One method that I used was a two dictionary method for keeping track of the county with the most beds as I ran through the rows. One dictionary held the county with the current maximum number of beds (cur_max). The other dictionary held the last county that was analyzed (cur_holder). If the "cur_holder" was ever greater than the "cur_max", then the county and number of beds in the "cur_holder" would replace the values of "cur_max". However, if the number of beds in the "cur_holder" was less than the "cur_max", the number of beds and county name for the "cur_holder" list would be reset. 
