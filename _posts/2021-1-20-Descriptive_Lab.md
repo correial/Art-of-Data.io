@@ -13,7 +13,7 @@ I analyzed the **Covid-19 Vaccinations** dataset
 # Dataset Analysis Discussion
 *I created two different graphs using panda and seaborn to compare the countries with the most daily vaccinations to those with the most daily vaccinations per million (people in the country).*
 
-    To determine the countries I would analyze for the highest daily vaccinations, I made a bar graph that would only show countries that had a total vaccination over a 1,500,000. From here, it was easy to determine the countries that had the highest total vaccinations. I chose seven  to analyze for daily vaccinations. ***Below is the bar graph used:***
+To determine the countries I would analyze for the highest daily vaccinations, I made a bar graph that would only show countries that had a total vaccination over a 1,500,000. From here, it was easy to determine the countries that had the highest total vaccinations. I chose seven  to analyze for daily vaccinations. ***Below is the bar graph used:***
 
 
 ![.](Total_Vacc_Bar.png)
