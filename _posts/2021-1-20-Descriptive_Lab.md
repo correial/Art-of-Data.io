@@ -12,7 +12,7 @@ I analyzed the **Covid-19 Vaccinations** dataset
 
 # Dataset Analysis Discussion
 *I created two different graphs using panda and seaborn to compare the countries with the most daily vaccinations to those with the most daily vaccinations per million (people in the country).*
-1. First, to determine the countries I would analyze for the highest daily vaccinations I made a bar graph that would only show countries that had a total vaccination over a 1500000. From here, it was easy to determine the countries that had the highest total vaccinations. I chose seven  to analyze for daily vaccinations. ***Below is the bargraph used:***
+1. First, to determine the countries I would analyze for the highest daily vaccinations, I made a bar graph that would only show countries that had a total vaccination over a 1,500,000. From here, it was easy to determine the countries that had the highest total vaccinations. I chose seven  to analyze for daily vaccinations. ***Below is the bar graph used:***
 
 
 ![.](Total_Vacc_Bar.png)
@@ -22,7 +22,7 @@ I analyzed the **Covid-19 Vaccinations** dataset
 
 ## Daily Vaccinations Graph Discussion
 ![.](Daily_Vac_line.png)
-- **Variables and axis:** The variables studied for this graph were the daily vaccinations for different countries over a span of time. The Y-axis represents the dailly vaccination number scaled to 1x10⁶, and on the X-axis we have the date. Additionally, the lines are color coated in order to identify which line corresponds to which country.
+- **Variables and axis:** The variables studied for this graph were the daily vaccination numbers, different countries from the data set, and different dates. The Y-axis represents the dailly vaccination number scaled to 1x10⁶, and on the X-axis we have the date. Additionally, the lines are color coated in order to identify which line corresponds to which country.
 - **Relationship between variables:** for all ocuntries except Turkey, the varibles in the graph have a direction relationship, for the most part as time goes on, the number of daily vaccinations increases. This symbolizes the increasing distribution of the vaccine for each country. 
 - **Distribution & Variability:** From the graph we can analyze the range. It appears that all of the data for daily vaccinations lies between 0.0 and 1.11x10⁶. The spread of the data is also clear, indicating that the United States has the most daily vaccinations on January 22, 2021 while Turkey has the least. Other than Turkey and India, all of the countries experianced their lowest daily vaccinations between December 15 and December 22 of 2020. The distribution of this line graph upholds what we see in the bar graph above, where United States, China, and the UK hold the highest total vaccinations and daily vaccinations. Lastly, from the line graph we learn roughly when countries began to vaccinate. India and Turkey began vaccinations far later than other countries, only portraying data after January 15 2021.
 - **What conclusions can you draw about this dataset:** In short, while there are flucuations in the number of daily vaccinations, the line of best fit for all of the countries, other than Turkey, is positive, indicating that as time increases, countries are increasing the effeciency of their covid-19 vaccinations. This line graph prompts us to ask ourselves what is causing the dramatic decrease in the vaccinations for Turkey? Perhaps Turkey's distribution process for the vaccine may not be very effective, or they have vaccinated the majority of their citizens already.
