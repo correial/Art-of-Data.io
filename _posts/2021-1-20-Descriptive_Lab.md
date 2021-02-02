@@ -16,7 +16,8 @@ I analyzed the **Covid-19 Vaccinations** dataset
 To determine the countries I would analyze for the highest daily vaccinations, I made a bar graph that would only show countries that had a total vaccination over a 1,500,000. From here, it was easy to determine the countries that had the highest total vaccinations. I chose seven  to analyze for daily vaccinations. ***Below is the bar graph used:***
 
 
-![.](Total_Vacc_Bar.png)
+![.]({{ site.baseurl }}/_posts/Total_Vacc_Bar.png)
+
 *This bar graph clearly shows the countries that have the highest number of total vaccinations*
 
 <br>
