@@ -3,7 +3,7 @@ layout: post
 title: Physical Health Lab
 ---
 
-4
+5
 
 # Which dataset did you work with?
 
@@ -102,7 +102,6 @@ df = pd.DataFrame(New_data)
 
 sns.violinplot(data=df, x="Grade", y="Hours", hue="Online?", split=True, inner="quartile", palette="Set2").set(title='Online vs. In-Person Sleep Comparison', ylabel = "Hours of Sleep")
 ```
-<br>
 
 ### What we learn from the exploratory violin graph
 * The line with the longest dashes represents the median (there is one for each grade and school environment). From the violin plot, we see that this line remains level among grades, however changes based on the environment (in person or online). 
@@ -133,7 +132,6 @@ Online_data = pd.DataFrame(bootstrap_samples(5000,z))
 print(Online_data.describe())
 ```
 
-<br>
 
 ### Generated Distribution After Bootstrapping
 
@@ -157,7 +155,7 @@ The calculates 95% confidence interval is 7.301471 to 7.705882 hours of sleep fo
 
 # Bootstrapping: In-person Sleep
 
-## Bootstrapping Code 
+**Bootstrapping Code:** 
 ```
 def bootstrap_sample(z):
   boot_sample=z.sample(136,replace=True)
@@ -174,7 +172,8 @@ In_person_data = pd.DataFrame(bootstrap_samples(5000,z))
 
 print(In_person_data.describe())
 ```
-## Generated Distribution After Bootstrapping
+
+### Generated Distribution After Bootstrapping
 ![.]({{ site.baseurl}}/assets/img/inhist.png)
 
 
