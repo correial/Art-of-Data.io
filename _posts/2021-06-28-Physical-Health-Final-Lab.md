@@ -3,16 +3,15 @@ layout: post
 title: "Physical Health Lab: In-person vs. Online Sleep"
 ---
 
-2
+3
 
 # Which dataset did you work with?
 
 ***I analyzed a csv file generated from a survey conducted on HM students regarding their physical health in-person vs. online school*** 
 
----
 
 # Dataset Analyzation
-
+<br>
 ## Analyze where it’s from
 As mentioned above, the CSV was generated from the responses of a survey. This survey is part of a research project that examines Horace Mann (HM) 9th through 11th grade variation in student physical Health between in-person and online school for the 2020-2021 school year.
 
