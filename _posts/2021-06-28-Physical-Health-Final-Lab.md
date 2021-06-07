@@ -7,7 +7,6 @@ title: "Physical Health Lab: In-person vs. Online Sleep"
 
 ***I analyzed a csv file generated from a survey conducted on HM students regarding their physical health in-person vs. online school*** 
 
-<br>
 
 # Dataset Analyzation
 
@@ -61,7 +60,7 @@ alt.Chart(Health).transform_density(
 
 <br>
 
-## Online Sleep Varaible Table (Blue Graph)
+### Online Sleep Varaible Table (Blue Graph)
 **Code used to obtain these statistics:** `Health["Online Sleep"].describe()`
 
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
@@ -71,7 +70,7 @@ alt.Chart(Health).transform_density(
 
 <br>
 
-## In-Person Sleep Variable Table (Red graph)
+### In-Person Sleep Variable Table (Red graph)
 **Code used to obtain these statistics:** `Health["In-person Sleep"].describe()`
 
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
@@ -79,7 +78,7 @@ alt.Chart(Health).transform_density(
 | **Value** | 136.000000 | 6.613971 | 9.500000 | 1.086903 | 6.500000 | N/A |
 | **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 6.6 hours | The maximum hours of sleep a student received during online school 9.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 6.5 hours | the red graph skews slightly to the right, however, remains symmetrical for the most part |
 
-<br>
+<br><br>
 --
 
 # Exploratory Visualization
@@ -103,7 +102,7 @@ sns.violinplot(data=df, x="Grade", y="Hours", hue="Online?", split=True, inner="
 ```
 <br>
 
-## What we learn from the exploratory violin graph
+### What we learn from the exploratory violin graph
 * The line with the longest dashes represents the median (there is one for each grade and school environment). From the violin plot, we see that this line remains level among grades, however changes based on the environment (in person or online). 
     * For in-person sleep (green), the median hours of sleep is approximately 6.5. This is the number we expected since it does not change as a function of grades, and thus should match the median hours of in-person sleep for the data set which was calculated in the table above
     * For online sleep (orange), median hours lie around 7.5 hours for all grades. This also makes sense as it matches the online sleep median in the table above
@@ -132,16 +131,17 @@ Online_data = pd.DataFrame(bootstrap_samples(5000,z))
 print(Online_data.describe())
 ```
 
-## Generated Distribution After Bootstrapping
+<br>
+
+### Generated Distribution After Bootstrapping
 
 ![.]({{ site.baseurl}}/assets/img/onhist.png)
 
 
 As expected, the mean, median, and max of the bootstrap sample (run 5,000 times) remain consistent with the original dataset. However, the standard deviation after bootstrapping is 0.103366 (instead of 1.201828). This is further evidence that the data in the original dataset for online sleep contains little skew and overall deviation. 
 
-<br>
 
-## Confidence Intervals
+### Confidence Intervals
 **Code Used:**
 ```
 print(Online_data.quantile(.025))
