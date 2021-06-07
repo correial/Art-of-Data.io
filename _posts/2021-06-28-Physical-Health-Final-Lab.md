@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Physical Health Lab: In-person vs. Online Sleep"
+title: Physical Health Lab
 ---
 
 3
