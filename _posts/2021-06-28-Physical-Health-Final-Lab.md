@@ -25,7 +25,7 @@ As mentioned above, the CSV was generated from the responses of a survey. This s
 The majority of survey questions focused on areas of physical health where answers would consist of quantitative values. While this subset of questions enables more efficient data cleaning and a reduction in bias responses, it leaves a significant aspect of understanding a student's physical health: why? Our responses lacked student reasoning and motivations behind their answers. Thus the focus on straightforward quantitative questions came at the price of a holistic understanding of a student's physical health
 
 
-## Dataset biases 
+### Dataset biases 
 - As stated above, most survey questions yielded quantitative answers, thus there was minimal bias surrounding the interpretation of questions. Additionally, the quantitative multiple choice answers curbed the effects of personal bias and perspectives such as what it means to be stressed. 
 - However, throughout the survey, students were asked the make large generalizations about categories for physical health such as the average hours of sleep per night during online school. These generalizations may not encompass a student's authentic sleep schedule. Thus the dataset may be prone to bias relating to student's view of how to calculate "average hours of sleep" if their hours of nightly sleep greatly alter from a night to night basis.
 
@@ -38,7 +38,7 @@ The majority of survey questions focused on areas of physical health where answe
 
 # Variable Descriptions and Analysis
 
-![.]({{ site.baseurl}}/assets/img/DENSITY.png)
+![.]({{ site.baseurl}}/assets/img/denseedit.png)
 
 **Code for this graph:**
 ```
