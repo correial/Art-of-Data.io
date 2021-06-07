@@ -38,7 +38,7 @@ The majority of survey questions focused on areas of physical health where answe
 # Variable Descriptions and Analysis
 
 
-![.](DENSITY.png)
+![.]({{ site.baseurl }}/assets/img/DENSITY.png)
 
 **Code for this graph:**
 ```
