@@ -3,8 +3,6 @@ layout: post
 title: Physical Health Lab
 ---
 
-9
-
 # Which dataset did you work with?
 
 ***I analyzed a csv file generated from a survey conducted on HM students regarding their physical health in-person vs. online school*** 
@@ -144,10 +142,10 @@ As expected, the mean, median, and max of the bootstrap sample (run 5,000 times)
 
 ### Confidence Intervals
 **Code Used:**
-
-`print(Online_data.quantile(.025))`
-`print(Online_data.quantile(.975))`
-
+```
+print(Online_data.quantile(.025))
+print(Online_data.quantile(.975))
+```
 
 The calculates 95% confidence interval is 7.301471 to 7.705882 hours of sleep for online school. This means that our team can be 95% confident that online sleep hours for students will lie between 7.301471 and 7.705882. This interval will be compared to in-person sleep confidence intervals later on
 
@@ -185,9 +183,10 @@ Similar to online sleep, the mean, median, and max of the bootstrap sample (run 
 
 ### Confidence Intervals
 **Code Used:**
-`print(In_person_data.quantile(.025))`
-`print(In_person_data.quantile(.975))`
-
+```
+print(In_person_data.quantile(.025))
+print(In_person_data.quantile(.975))
+```
 
 The calculated 95% confidence interval is 6.441176 to 6.801471 hours of sleep for in-person school. This means that our team can be 95% confident that in-person nightly hours of sleep for students will lie between 6.441176 and 6.801471. When comparing this data to the online sleep interval, we can now conclude, with 95% confidence, that students during online school receive roughly an hour more of sleep every night. This upholds my hypothesis that HM students receive more sleep during online than in in-person school. The final step to confirm this trend is statistical significance testing.
 
