@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reimagining Research Discussion
+title: "Physical Health Lab: In-person vs. Online Sleep"
 ---
 
 # Which dataset did you work with?
@@ -206,7 +206,7 @@ print(P_num/(len(sorted_ls)))
 
 * The P value, for this code, is simply the percent probability of a value in the Online-sleep data being greater than or equal to the average In-person sleep data. If we look at our distribution above, we see that there are no such values, and thus "P_num" remains at 0, and 0 divided by anything is 0! With this result, we can safely reject the null hypothesis and confirm that the data upholds the alternative hypothesis: students recieve more hours of nightly average sleep during online school than in-person school!
 
-
+<br>
 
 ## Written, Edited, Created, Thought of, and Programmed by: 
 ***Lucca Correia (HM '22)***  
