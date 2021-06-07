@@ -64,25 +64,25 @@ alt.Chart(Health).transform_density(
 ## Online Sleep Varaible Table (Blue Graph)
 **Code used to obtain these statistics:** `Health["Online Sleep"].describe()`
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
-| :------ |:--- | :--- | :--- | :--- | :--- | :---
-| **Value** | 136.000000 | 7.507353 | 10.500000 | 1.201828 | 7.500000 | N/A
-| **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 7.5 hours| The maximum hours of sleep a student received during online school 10.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 7.5 hours | This graph experiences very little skew; it is almost perfectly symmetrical 
+| :------ |:--- | :--- | :--- | :--- | :--- | :--- |
+| **Value** | 136.000000 | 7.507353 | 10.500000 | 1.201828 | 7.500000 | N/A |
+| **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 7.5 hours| The maximum hours of sleep a student received during online school 10.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 7.5 hours | This graph experiences very little skew; it is almost perfectly symmetrical |
 
 <br>
 
 ## In-Person Sleep Variable Table (Red graph)
 **Code used to obtain these statistics:** `Health["In-person Sleep"].describe()`
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
-| :------ |:--- | :--- | :--- | :--- | :--- | :---
-| **Value** | 136.000000 | 6.613971 | 9.500000 | 1.086903 | 6.500000 | N/A
-| **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 6.6 hours | The maximum hours of sleep a student received during online school 9.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 6.5 hours | the red graph skews slightly to the right, however, remains symmetrical for the most part
+| :------ |:--- | :--- | :--- | :--- | :--- | :--- |
+| **Value** | 136.000000 | 6.613971 | 9.500000 | 1.086903 | 6.500000 | N/A |
+| **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 6.6 hours | The maximum hours of sleep a student received during online school 9.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 6.5 hours | the red graph skews slightly to the right, however, remains symmetrical for the most part |
 
 <br>
 --
 
 # Exploratory Visualization
 
-![.](picture.png)
+![.]({{ site.baseurl}}/assets/img/picture.png)
 **Code for this graph:**
 ```
 New_data = []
@@ -132,7 +132,8 @@ print(Online_data.describe())
 
 ## Generated Distribution After Bootstrapping
 
-![.](onhist.png)
+![.]({{ site.baseurl}}/assets/img/onhist.png)
+
 
 As expected, the mean, median, and max of the bootstrap sample (run 5,000 times) remain consistent with the original dataset. However, the standard deviation after bootstrapping is 0.103366 (instead of 1.201828). This is further evidence that the data in the original dataset for online sleep contains little skew and overall deviation. 
 
@@ -170,7 +171,8 @@ In_person_data = pd.DataFrame(bootstrap_samples(5000,z))
 print(In_person_data.describe())
 ```
 ## Generated Distribution After Bootstrapping
-![.](inhist.png)
+![.]({{ site.baseurl}}/assets/img/inhist.png)
+
 
 Similar to online sleep, the mean, median, and max of the bootstrap sample (run 5,000 times) remain consistent with the original dataset for in-person sleep. However, the standard deviation after bootstrapping is 0.092000 (instead of 1.086903). This is further evidence that the data in the original dataset for online sleep contains little skew and overall deviation. 
 
