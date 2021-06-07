@@ -3,13 +3,12 @@ layout: post
 title: Physical Health Lab
 ---
 
-7
+9
 
 # Which dataset did you work with?
 
 ***I analyzed a csv file generated from a survey conducted on HM students regarding their physical health in-person vs. online school*** 
 
-<hr />
 
 # Dataset Analyzation
 
@@ -183,14 +182,12 @@ print(In_person_data.describe())
 
 Similar to online sleep, the mean, median, and max of the bootstrap sample (run 5,000 times) remain consistent with the original dataset for in-person sleep. However, the standard deviation after bootstrapping is 0.092000 (instead of 1.086903). This is further evidence that the data in the original dataset for online sleep contains little skew and overall deviation. 
 
-<br>
 
-## Confidence Intervals
+### Confidence Intervals
 **Code Used:**
-```
-print(In_person_data.quantile(.025))
-print(In_person_data.quantile(.975))
-```
+`print(In_person_data.quantile(.025))`
+`print(In_person_data.quantile(.975))`
+
 
 The calculated 95% confidence interval is 6.441176 to 6.801471 hours of sleep for in-person school. This means that our team can be 95% confident that in-person nightly hours of sleep for students will lie between 6.441176 and 6.801471. When comparing this data to the online sleep interval, we can now conclude, with 95% confidence, that students during online school receive roughly an hour more of sleep every night. This upholds my hypothesis that HM students receive more sleep during online than in in-person school. The final step to confirm this trend is statistical significance testing.
 
