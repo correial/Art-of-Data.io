@@ -3,7 +3,7 @@ layout: post
 title: Physical Health Lab
 ---
 
-5
+6
 
 # Which dataset did you work with?
 
@@ -38,7 +38,7 @@ The majority of survey questions focused on areas of physical health where answe
 
 # Variable Descriptions and Analysis
 
-![.]({{ site.baseurl}}/assets/img/denseedit.png)
+![.]({{ site.baseurl}}/assets/img/densedit2.png)
 
 **Code for this graph:**
 ```
@@ -102,7 +102,7 @@ df = pd.DataFrame(New_data)
 
 sns.violinplot(data=df, x="Grade", y="Hours", hue="Online?", split=True, inner="quartile", palette="Set2").set(title='Online vs. In-Person Sleep Comparison', ylabel = "Hours of Sleep")
 ```
-
+<br>
 ### What we learn from the exploratory violin graph
 * The line with the longest dashes represents the median (there is one for each grade and school environment). From the violin plot, we see that this line remains level among grades, however changes based on the environment (in person or online). 
     * For in-person sleep (green), the median hours of sleep is approximately 6.5. This is the number we expected since it does not change as a function of grades, and thus should match the median hours of in-person sleep for the data set which was calculated in the table above
@@ -132,6 +132,7 @@ Online_data = pd.DataFrame(bootstrap_samples(5000,z))
 print(Online_data.describe())
 ```
 
+<br>
 
 ### Generated Distribution After Bootstrapping
 
@@ -143,10 +144,10 @@ As expected, the mean, median, and max of the bootstrap sample (run 5,000 times)
 
 ### Confidence Intervals
 **Code Used:**
-```
-print(Online_data.quantile(.025))
-print(Online_data.quantile(.975))
-```
+
+`print(Online_data.quantile(.025))`
+`print(Online_data.quantile(.975))`
+
 
 The calculates 95% confidence interval is 7.301471 to 7.705882 hours of sleep for online school. This means that our team can be 95% confident that online sleep hours for students will lie between 7.301471 and 7.705882. This interval will be compared to in-person sleep confidence intervals later on
 
@@ -172,6 +173,8 @@ In_person_data = pd.DataFrame(bootstrap_samples(5000,z))
 
 print(In_person_data.describe())
 ```
+
+<br>
 
 ### Generated Distribution After Bootstrapping
 ![.]({{ site.baseurl}}/assets/img/inhist.png)
