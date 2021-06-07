@@ -3,7 +3,7 @@ layout: post
 title: Physical Health Lab
 ---
 
-3
+4
 
 # Which dataset did you work with?
 
@@ -11,17 +11,17 @@ title: Physical Health Lab
 
 
 # Dataset Analyzation
-<br>
-## Analyze where it’s from
+
+### Analyze where it’s from
 As mentioned above, the CSV was generated from the responses of a survey. This survey is part of a research project that examines Horace Mann (HM) 9th through 11th grade variation in student physical Health between in-person and online school for the 2020-2021 school year.
 
-## What assumptions does the dataset make:
+### What assumptions does the dataset make:
  The two major assumptions that the data set makes are an accurate representation of the population and correct responses. 
  1) The sample size of the data set contained 135 student responses with a proportional response rate from each grade. Our team agreed that the magnitude of responses was large enough to assume they accurately and holistically represented the population of all 9th-11th graders at HM. 
  2) The second assumption made is that all responses are accurate and indicative of a student's actual life. While there is no method of guaranteeing that this is true, our team reduced any confusion and need for question interpretation as all answers were multiple choice and concise. 
 
 
-## What data might be missing?
+### What data might be missing?
 The majority of survey questions focused on areas of physical health where answers would consist of quantitative values. While this subset of questions enables more efficient data cleaning and a reduction in bias responses, it leaves a significant aspect of understanding a student's physical health: why? Our responses lacked student reasoning and motivations behind their answers. Thus the focus on straightforward quantitative questions came at the price of a holistic understanding of a student's physical health
 
 
@@ -30,7 +30,7 @@ The majority of survey questions focused on areas of physical health where answe
 - However, throughout the survey, students were asked the make large generalizations about categories for physical health such as the average hours of sleep per night during online school. These generalizations may not encompass a student's authentic sleep schedule. Thus the dataset may be prone to bias relating to student's view of how to calculate "average hours of sleep" if their hours of nightly sleep greatly alter from a night to night basis.
 
 
-## Null and alternative hypotheses
+### Null and alternative hypotheses
 * My alternative hypothesis is that students receive more sleep during online than in in-person school. 
 * My null hypothesis is that the work environment does not affect on average hours of nightly sleep
 
@@ -115,7 +115,7 @@ sns.violinplot(data=df, x="Grade", y="Hours", hue="Online?", split=True, inner="
 
 # Bootstrapping: Online Sleep
 
-## Bootstrapping Code 
+**Bootstrapping Code:** 
 ```
 def bootstrap_sample(z):
   boot_sample=z.sample(136,replace=True)
