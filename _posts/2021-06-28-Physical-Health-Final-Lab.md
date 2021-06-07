@@ -34,11 +34,10 @@ The majority of survey questions focused on areas of physical health where answe
 * My null hypothesis is that the work environment does not affect on average hours of nightly sleep
 
 <br>
--
+
 # Variable Descriptions and Analysis
 
-
-![.]({{ site.baseurl }}/assets/img/DENSITY.png)
+![.]({{ site.baseurl}}/assets/img/DENSITY.png)
 
 **Code for this graph:**
 ```
@@ -70,7 +69,7 @@ alt.Chart(Health).transform_density(
 | **Meaning** | 136 students answered this question on the survey | This tells us that the average nightly hours of sleep during online school is roughly 7.5 hours| The maximum hours of sleep a student received during online school 10.5 hours | There was very minimal variance in the data/histogram | The graph is centered around 7.5 hours | This graph experiences very little skew; it is almost perfectly symmetrical 
 
 <br>
------------------------
+
 ## In-Person Sleep Variable Table (Red graph)
 **Code used to obtain these statistics:** `Health["In-person Sleep"].describe()`
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
