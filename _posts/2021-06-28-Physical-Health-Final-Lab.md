@@ -63,6 +63,7 @@ alt.Chart(Health).transform_density(
 
 ## Online Sleep Varaible Table (Blue Graph)
 **Code used to obtain these statistics:** `Health["Online Sleep"].describe()`
+
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
 | :------ |:--- | :--- | :--- | :--- | :--- | :--- |
 | **Value** | 136.000000 | 7.507353 | 10.500000 | 1.201828 | 7.500000 | N/A |
@@ -72,6 +73,7 @@ alt.Chart(Health).transform_density(
 
 ## In-Person Sleep Variable Table (Red graph)
 **Code used to obtain these statistics:** `Health["In-person Sleep"].describe()`
+
 | | Count | Mean | Max | Standard Deviation | Median | Skew | 
 | :------ |:--- | :--- | :--- | :--- | :--- | :--- |
 | **Value** | 136.000000 | 6.613971 | 9.500000 | 1.086903 | 6.500000 | N/A |
